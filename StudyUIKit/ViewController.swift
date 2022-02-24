@@ -6,6 +6,8 @@
 //
 
 // 데이터 넘기는 방법 6가지
+// 1. 넘길VC에 변수(property) 생성 후 present로 넘긴다.
+// 2. segue로 넘기는데, override prepare기능 이용해서 하는데, 나는 그냥 할줄만 아는 정도로 넘어간다. 실무에서 단한번도 쓰지 않을듯...
 
 import UIKit
 
