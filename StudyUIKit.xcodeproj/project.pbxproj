@@ -14,6 +14,8 @@
 		B68D7F4C27C7C630009FE511 /* StudyUIKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B68D7F4A27C7C630009FE511 /* StudyUIKit.xcdatamodeld */; };
 		B68D7F4E27C7C631009FE511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68D7F4D27C7C631009FE511 /* Assets.xcassets */; };
 		B68D7F5127C7C631009FE511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68D7F4F27C7C631009FE511 /* LaunchScreen.storyboard */; };
+		B68D7F5C27C7C888009FE511 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D7F5A27C7C888009FE511 /* DetailViewController.swift */; };
+		B68D7F5D27C7C888009FE511 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68D7F5B27C7C888009FE511 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B68D7F4D27C7C631009FE511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B68D7F5027C7C631009FE511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B68D7F5227C7C631009FE511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68D7F5A27C7C888009FE511 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B68D7F5B27C7C888009FE511 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				B68D7F4127C7C630009FE511 /* AppDelegate.swift */,
 				B68D7F4327C7C630009FE511 /* SceneDelegate.swift */,
+				B68D7F5A27C7C888009FE511 /* DetailViewController.swift */,
+				B68D7F5B27C7C888009FE511 /* DetailViewController.xib */,
 				B68D7F4527C7C630009FE511 /* ViewController.swift */,
 				B68D7F4727C7C630009FE511 /* Main.storyboard */,
 				B68D7F4D27C7C631009FE511 /* Assets.xcassets */,
@@ -131,6 +137,7 @@
 				B68D7F5127C7C631009FE511 /* LaunchScreen.storyboard in Resources */,
 				B68D7F4E27C7C631009FE511 /* Assets.xcassets in Resources */,
 				B68D7F4927C7C630009FE511 /* Main.storyboard in Resources */,
+				B68D7F5D27C7C888009FE511 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +150,7 @@
 			files = (
 				B68D7F4627C7C630009FE511 /* ViewController.swift in Sources */,
 				B68D7F4227C7C630009FE511 /* AppDelegate.swift in Sources */,
+				B68D7F5C27C7C888009FE511 /* DetailViewController.swift in Sources */,
 				B68D7F4C27C7C630009FE511 /* StudyUIKit.xcdatamodeld in Sources */,
 				B68D7F4427C7C630009FE511 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,6 +309,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
