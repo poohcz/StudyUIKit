@@ -8,11 +8,16 @@
 // 데이터 넘기는 방법 6가지
 // 1. 넘길VC에 변수(property) 생성 후 present로 넘긴다.
 // 2. segue로 넘기는데, override prepare기능 이용해서 하는데, 나는 그냥 할줄만 아는 정도로 넘어간다. 실무에서 단한번도 쓰지 않을듯...
+// 3. 클래스 자체를 넘긴다.
+// 4. 가장중요한 델리게이트(프로토콜)
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var receivedDataFromDelegateViewLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
@@ -33,6 +38,22 @@ class ViewController: UIViewController {
         
         detailVC.valueLabel.text = "Error"
     }
+    
+    // 델리게이트 페이지 띄우고, 델리게이트View에 선언된 델리게이트 = self(여기서 사용하겠다)
+    @IBAction func moveToDelegateViewActionBtn(_ sender: UIButton) {
+        let delegateVC = DelegateViewController(nibName: "DelegateViewController", bundle: nil)
+        delegateVC.delegate = self
+        self.present(delegateVC, animated: true, completion: nil)
+    }
+}
+
+// 데이터 받는 쪽에서 extension사용할 것. 클래쓰에 아래 델리게이트를 추가해도 되지만, 가독성을 위해서 나눠서 한다.
+extension ViewController: DelegateViewControllerDelegate {
+    func passString(value: String) {
+        receivedDataFromDelegateViewLabel.textColor = .blue
+        receivedDataFromDelegateViewLabel.text = value
+    }
+    
     
 }
 

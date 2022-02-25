@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B680F27527C881E100C0D924 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F27327C881E100C0D924 /* DelegateViewController.swift */; };
+		B680F27627C881E100C0D924 /* DelegateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B680F27427C881E100C0D924 /* DelegateViewController.xib */; };
 		B68D7F4227C7C630009FE511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D7F4127C7C630009FE511 /* AppDelegate.swift */; };
 		B68D7F4427C7C630009FE511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D7F4327C7C630009FE511 /* SceneDelegate.swift */; };
 		B68D7F4627C7C630009FE511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D7F4527C7C630009FE511 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B680F27327C881E100C0D924 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		B680F27427C881E100C0D924 /* DelegateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelegateViewController.xib; sourceTree = "<group>"; };
 		B68D7F3E27C7C630009FE511 /* StudyUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68D7F4127C7C630009FE511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B68D7F4327C7C630009FE511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				B68D7F4327C7C630009FE511 /* SceneDelegate.swift */,
 				B68D7F5A27C7C888009FE511 /* DetailViewController.swift */,
 				B68D7F5B27C7C888009FE511 /* DetailViewController.xib */,
+				B680F27327C881E100C0D924 /* DelegateViewController.swift */,
+				B680F27427C881E100C0D924 /* DelegateViewController.xib */,
 				B68D7F4527C7C630009FE511 /* ViewController.swift */,
 				B68D7F4727C7C630009FE511 /* Main.storyboard */,
 				B68D7F4D27C7C631009FE511 /* Assets.xcassets */,
@@ -138,6 +144,7 @@
 				B68D7F4E27C7C631009FE511 /* Assets.xcassets in Resources */,
 				B68D7F4927C7C630009FE511 /* Main.storyboard in Resources */,
 				B68D7F5D27C7C888009FE511 /* DetailViewController.xib in Resources */,
+				B680F27627C881E100C0D924 /* DelegateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +160,7 @@
 				B68D7F5C27C7C888009FE511 /* DetailViewController.swift in Sources */,
 				B68D7F4C27C7C630009FE511 /* StudyUIKit.xcdatamodeld in Sources */,
 				B68D7F4427C7C630009FE511 /* SceneDelegate.swift in Sources */,
+				B680F27527C881E100C0D924 /* DelegateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
